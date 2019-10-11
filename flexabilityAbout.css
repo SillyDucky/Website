@@ -1,0 +1,27 @@
+        #navigation{
+            min-height: 0px;
+            background-color: #f62320;
+        }
+        #body{
+            min-height: 400px;
+            margin-top: 3%;
+            background-color: #ff0000;
+        }
+        #footer{
+            min-height: 50px;
+            margin-top: 3%;
+            background-color: #dc0000;
+        }
+        #body, #footer, #navigation{
+            margin-left: 10%;
+            margin-right: 10%;
+            
+            box-shadow: 3px 5px 7px #f62320;
+        @viewport{
+            zoom: 1.0;
+            width: extend-to-zoom;
+        }
+        @-ms-viewport{
+            width: extend-to-zoom;
+            zoom: 1.0;
+        } 
